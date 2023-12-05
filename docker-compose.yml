@@ -1,0 +1,17 @@
+version: '3.4'
+
+services:
+  api:
+    image: ${DOCKER_REGISTRY-}api
+    container_name: ss-api
+    build:
+      context: .
+      dockerfile: Api/Dockerfile
+  seq:
+    image: datalust/seq:latest
+    container_name: ss-seq
+    environment: 
+        - ACCEPT_EULA=Y
+    ports:
+        - 5341:5341
+        - 8081:80  
