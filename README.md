@@ -7,13 +7,13 @@ Demo setup for .Net backend added with Seq and Serilog
 
 | Name | Version |
 | :---: | :---: |
-| Seq.Extensions.Logging |　LTS |
+| Seq.Extensions.Logging | LTS |
 | Serilog.AspNetCore | LTS |
 | Serilog.Sinks.Console | LTS |
 | Serilog.Sinks.Seq | LTS |
 
 ## Basic Concept
-- Using Serilog provide structured logging service
+- Serilog provide structured logging service
   - No longer in plain(pain) text format
 - Seq provide dashboard and UI for easy Serilog management
 
