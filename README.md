@@ -1,6 +1,18 @@
 # SeqSerilog
 Demo setup for .Net backend added with Seq and Serilog
 
+## Document reference
+- Variables in Seq
+https://docs.datalust.co/docs/variables
+
+- Query and Signal
+https://docs.datalust.co/docs/sql-queries
+https://docs.datalust.co/docs/signals
+
+
+- Dashboard Usage
+https://docs.datalust.co/docs/dashboards
+
 ## Pre-requisites
 - Docker (Optional)
 - Nuget Packages
