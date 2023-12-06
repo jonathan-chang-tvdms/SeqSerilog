@@ -116,5 +116,5 @@ Same same, not interested to write
 
 
 ## Seq dashboard
-If you are using docker like me, go here
+Go here
 http://localhost:8081
